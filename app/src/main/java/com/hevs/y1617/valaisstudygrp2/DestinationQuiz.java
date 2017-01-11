@@ -87,6 +87,7 @@ public class DestinationQuiz extends AppCompatActivity implements NavigationView
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 UpdateDataToDB.updateStatisticDest(DestinationQuiz.this, 0, destinationList.get(position).getIdDestination());
 
+                CurrentUser.setChooseDest(false);
                 Intent intent = new Intent(DestinationQuiz.this, QuizTopic.class);
                 CurrentQuizProperties.setQuizDestination(destinationList.get(position));
                 //intent.putExtra("ChosenQuizDestination", destinationList.get(position));

@@ -109,6 +109,7 @@ public class ChooseDestinationLearning extends AppCompatActivity implements Navi
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 UpdateDataToDB.updateStatisticDest(ChooseDestinationLearning.this, 1, destinationList.get(position).getIdDestination());
 
+                CurrentUser.setChooseDest(false);
                 Intent intent = new Intent(ChooseDestinationLearning.this, Learning.class);
                 intent.putExtra("ChosenLearningDestination", destinationList.get(position));
                 startActivity(intent);

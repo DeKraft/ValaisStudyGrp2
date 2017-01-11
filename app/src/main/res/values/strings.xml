@@ -146,7 +146,7 @@
     <string name="title_activity_leisures_events_learning">Freizeit und Events</string>
     <string name="title_activity_transportz_infrastructures_learning">Transports et Infrastructures</string>
     <string name="title_activity_customer_learning">Clients</string>
-    <string name="title_activity_quiz_topic">QuizTopic</string>
+    <string name="title_activity_quiz_topic">Quiz Topic</string>
     <string name="chooseDestinationLearning">Wählen Sie eine Destination aus</string>
     <string name="title_activity_choose_destination_learning">Destination wählen</string>
 

@@ -1,0 +1,159 @@
+<resources>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- General -->
+    <string name="app_name">ValaisStudy</string>
+    <string name="made">ValaisStudy</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_rank">Level</string>
+    <string name="menu_information">Information</string>
+    <string name="menu_quiz">Quiz</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_contact">Kontakt</string>
+    <string name="menu_about">Copyright</string>
+    <string name="menu_logout">Abmelden</string>
+
+    <!-- Menu Titles -->
+    <string name="menu_title_profile">Profil</string>
+    <string name="menu_title_study">Studie</string>
+    <string name="menu_title_Settings">Einstellungen</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Page Titles -->
+    <string name="pagetitle_login">Login</string>
+    <string name="pagetitle_registration">Registration</string>
+
+    <!-- Login Page -->
+    <string name="pagelogin_labelWelcome">Willkommen bei ValaisStudy! Hier kannst Du dich registrieren oder anmelden.</string>
+    <string name="pagelogin_labelUsername">Benutzername</string>
+    <string name="pagelogin_labelPassword">Passwort</string>
+    <string name="pagelogin_buttonLogin">Login</string>
+    <string name="pagelogin_buttonLoginLocal">Ohne Anmeldung einloggen</string>
+    <string name="pagelogin_buttonRegister">Registrieren</string>
+    <string name="pagelogin_oder">oder</string>
+
+    <!-- Login Page tests -->
+    <string name="pagelogin_usernameEmpty">Bitte Username ausfüllen</string>
+    <string name="pagelogin_pwEmtpy">Bitte Passwort ausfüllen</string>
+    <string name="pagelogin_wrongCridentials">Falscher Benutzername oder Passwort</string>
+
+    <!-- Registration Page -->
+    <string name="pageregister_labelFirstname">Vorname</string>
+    <string name="pageregister_labelLastname">Name</string>
+    <string name="pageregister_labelUsername">Username</string>
+    <string name="pageregister_labelDestination">Destination</string>
+    <string name="pageregister_labelBenutzertyp">Benutzertyp</string>
+    <string name="pageregister_password">Passwort</string>
+    <string name="pageregister_passwordAgain">Passwort wiederholen</string>
+    <string name="pageregister_chooseType">Aufenthaltstyp auswählen</string>
+    <string name="pageregister_chooseDestination">Aktuelle Destination auswählen</string>
+    <string name="pageregister_register">Jetzt registrieren</string>
+
+    <!-- Registration Page tests -->
+    <string name="pageregister_usernameEmpty">Bitte Username ausfüllen</string>
+    <string name="pageregister_usernameExists">Benutzername existiert bereits</string>
+    <string name="pageregister_nameEmpty">Bitte Name ausfüllen</string>
+    <string name="pageregister_firstnameEmpty">Bitte Vorname ausfüllen</string>
+    <string name="pageregister_pwEmtpy">Bitte Passwort ausfüllen</string>
+    <string name="pageregister_pwEqualTest">Passwörter müssen übereinstimmen</string>
+    <string name="pageregister_notEmail">Benutzername darf keine Email sein</string>
+
+    <!-- Difficulty -->
+    <string name="easy">Leicht</string>
+    <string name="medium">Mittel</string>
+    <string name="hard">Schwer</string>
+    <string name="Labeldifficulty">Wählen Sie den Schwierigkeitsgrad der Fragen</string>
+    <string name="title_activity_quizdifficulty">Schwierigkeitsgrad</string>
+
+    <!-- Question -->
+    <string name="title_activity_question">Quiz</string>
+
+    <!-- Select Destination -->
+    <string name="title_activity_destinationselect">Destinationen</string>
+    <string name="selectdestination">Wählen Sie eine Destination aus</string>
+
+    <!-- Quizfinish -->
+    <string name="title_activity_quizfinish">Quiz beendet</string>
+    <string name="youhave">Sie haben</string>
+    <string name="rankpoints">% erreicht!</string>
+    <string name="labelrank">Ihr aktueller Rang:</string>
+    <string name="labelnewrank">Glückwunsch! Sie haben einen neuen Rang erreicht:</string>
+    <string name="sendremark">Bewertung senden</string>
+    <string name="thanksremark">Vielen Dank für Ihre Bewertung!</string>
+    <string name="pleaseremark">Hier können Sie eine Bewertung zu diesem Thema abgeben</string>
+    <string name="bravo">Bravo!!!</string>
+    <string name="schade">Schade!!!</string>
+    <string name="maxlvl">Sie haben bereits die Maximalstufe erreicht!</string>
+    <string name="torank2">bis Rang 2</string>
+    <string name="torank3">bis Rang 3</string>
+    <string name="torank4">bis Rang 4</string>
+    <string name="with"> mit </string>
+    <string name="points"> Punkten:</string>
+
+    <!-- Rank -->
+    <string name="title_activity_rank">Level</string>
+    <string name="yourrank">Dein Rang</string>
+    <string name="yourscore">Deine Punkte: </string>
+    <string name="top3">Top 3 Spieler: </string>
+
+
+    <!-- Welcome -->
+    <string name="title_activity_welcome">Home</string>
+    <string name="welcome">Willkommen</string>
+    <string name="btnRedirectLogin">Login / Registrieren</string>
+    <string name="btnForceSync">Synchronisieren</string>
+    <string name="noInternet">Keine Internetverbindung vorhanden</string>
+    <string name="noInternetMsg">Überprüfen Sie Ihre Internetverbindung</string>
+
+    <!-- Contact -->
+    <string name="title_activity_contact">Kontakt</string>
+    <string name="contact">In Kontakt treten</string>
+
+    <!-- Settings -->
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="choselanguage">Sprache</string>
+    <string name="savebtn">Speichern</string>
+
+    <!-- Profile -->
+    <string name="title_activity_profile">Profil</string>
+    <string name="username">Username</string>
+    <string name="firstname">Vorname</string>
+    <string name="lastname">Nachname</string>
+    <string name="email">E-Mail</string>
+    <string name="destination">Ort</string>
+    <string name="usertype">User Typ</string>
+
+    <!-- Copyright -->
+    <string name="title_activity_copyright">Copyright</string>
+
+    <!-- Learning page!-->
+    <string name="LearningsAction">Wählen Sie ein Thema zur Destination</string>
+    <string name="Destination">Generelle Informationen</string>
+    <string name="Gastronomy">Gastronomie</string>
+    <string name="LeisureEvents">Freizeit und Evenets</string>
+    <string name="TransportzInfrastructures">Transport und Infrastruktur</string>
+    <string name="Customer">Kundeninfo</string>
+    <string name="title_activity_destination_learning">Destination</string>
+    <string name="title_activity_gastronomy_learning">Gastronomie</string>
+    <string name="title_activity_leisures_events_learning">Freizeit und Events</string>
+    <string name="title_activity_transportz_infrastructures_learning">Transports et Infrastructures</string>
+    <string name="title_activity_customer_learning">Clients</string>
+    <string name="title_activity_quiz_topic">QuizTopic</string>
+    <string name="chooseDestinationLearning">Wählen Sie eine Destination aus</string>
+    <string name="title_activity_choose_destination_learning">Destination wählen</string>
+
+    <!-- QuizTopic page!-->
+    <string name="pagequiztopic_chosendestination">Sie haben die folgende Destination ausgewählt:</string>
+    <string name="title_activity_destination_learning_offline">Informationen</string>
+
+
+
+</resources>

@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="13dp"
                 android:id="@+id/textView25"
-                android:text="Rizzy"
+                android:text="Ritzy"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textAlignment="center"

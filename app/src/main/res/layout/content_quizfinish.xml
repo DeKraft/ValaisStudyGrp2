@@ -126,7 +126,8 @@
                 android:layout_below="@+id/comment"
                 android:id="@+id/sendremark"
                 android:onClick="sendrequest"
-                android:background="@drawable/button_round_corner"/>
+                android:background="@drawable/button_round_corner"
+                android:textColor="@android:color/white"/>
 
             <TextView
                 android:text="TextView"

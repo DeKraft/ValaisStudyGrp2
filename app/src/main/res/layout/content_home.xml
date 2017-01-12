@@ -63,7 +63,8 @@
                 android:layout_marginEnd="87dp"
                 android:layout_marginTop="60dp"
                 android:id="@+id/btnRedirectLogin"
-                android:onClick="redirectLogin"/>
+                android:onClick="redirectLogin"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:text="@string/btnForceSync"
@@ -77,7 +78,8 @@
                 android:layout_marginEnd="87dp"
                 android:layout_marginTop="20dp"
                 android:id="@+id/btnForceSync"
-                android:onClick="forceSync"/>
+                android:onClick="forceSync"
+                android:textColor="@android:color/white"/>
 
         </RelativeLayout>
     </ScrollView>

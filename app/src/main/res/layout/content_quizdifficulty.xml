@@ -36,7 +36,8 @@
         android:minWidth="150dip"
         android:minHeight="50dp"
         android:onClick="selectmedium"
-        android:background="@drawable/button_round_corner"/>
+        android:background="@drawable/button_round_corner"
+        android:textColor="@android:color/white"/>
 
     <Button
         android:text="@string/hard"
@@ -50,7 +51,8 @@
         android:minWidth="150dip"
         android:minHeight="50dp"
         android:onClick="selecthard"
-        android:background="@drawable/button_round_corner"/>
+        android:background="@drawable/button_round_corner"
+        android:textColor="@android:color/white"/>
 
     <Button
         android:text="@string/easy"
@@ -62,7 +64,8 @@
         android:minWidth="150dip"
         android:minHeight="50dp"
         android:onClick="selecteasy"
-        android:background="@drawable/button_round_corner"/>
+        android:background="@drawable/button_round_corner"
+        android:textColor="@android:color/white"/>
 
 
     <TextView

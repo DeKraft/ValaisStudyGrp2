@@ -37,7 +37,8 @@
                 android:background="@drawable/button_round_corner"
                 android:layout_marginTop="100dp"
                 android:onClick="DisplayDestination"
-                android:id="@+id/Destination" />
+                android:id="@+id/Destination"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:text="@string/Gastronomy"
@@ -53,7 +54,8 @@
                 android:background="@drawable/button_round_corner"
                 android:layout_marginTop="33dp"
                 android:onClick="DisaplyGastronomy"
-                android:id="@+id/Gastronomy" />
+                android:id="@+id/Gastronomy"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:text="@string/LeisureEvents"
@@ -69,7 +71,8 @@
                 android:background="@drawable/button_round_corner"
                 android:layout_marginTop="33dp"
                 android:onClick="DisplayLeisuresEvents"
-                android:id="@+id/LeisureEvents" />
+                android:id="@+id/LeisureEvents"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:text="@string/TransportzInfrastructures"
@@ -82,7 +85,8 @@
                 android:paddingRight="10dp"
                 android:layout_marginTop="33dp"
                 android:onClick="DisplayTransportsInfratructures"
-                android:id="@+id/TransportsInfrastructures" />
+                android:id="@+id/TransportsInfrastructures"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:text="@string/Customer"
@@ -98,7 +102,8 @@
                 android:background="@drawable/button_round_corner"
                 android:layout_marginTop="33dp"
                 android:onClick="DisplayCustomer"
-                android:id="@+id/Customer" />
+                android:id="@+id/Customer"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:text="Destination ändern"
@@ -109,7 +114,8 @@
                 android:textSize="12sp"
                 android:background="@drawable/button_round_corner"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/white"/>
 
             <TextView
                 android:text="@string/LearningsAction"

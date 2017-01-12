@@ -95,7 +95,8 @@
                 android:layout_marginRight="40dp"
                 android:onClick="loginAsUser"
                 android:text="@string/pagelogin_buttonLogin"
-                android:background="@drawable/button_round_corner"/>
+                android:background="@drawable/button_round_corner"
+                android:textColor="@android:color/white"/>
 
             <TextView
                 android:id="@+id/labelOder"
@@ -120,7 +121,8 @@
                 android:layout_marginRight="40dp"
                 android:onClick="openHome"
                 android:text="@string/pagelogin_buttonLoginLocal"
-                android:background="@drawable/button_round_corner"/>
+                android:background="@drawable/button_round_corner"
+                android:textColor="@android:color/white"/>
 
             <Button
                 android:id="@+id/buttonRegister"
@@ -134,7 +136,8 @@
                 android:minWidth="200dp"
                 android:onClick="openRegistration"
                 android:text="@string/pagelogin_buttonRegister"
-                android:background="@drawable/button_round_corner" />
+                android:background="@drawable/button_round_corner"
+                android:textColor="@android:color/white"/>
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

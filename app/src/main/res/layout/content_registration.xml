@@ -206,7 +206,8 @@
                 android:minWidth="200dp"
                 android:onClick="register"
                 android:text="@string/pageregister_register"
-                android:background="@drawable/button_round_corner"/>
+                android:background="@drawable/button_round_corner"
+                android:textColor="@android:color/white"/>
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
